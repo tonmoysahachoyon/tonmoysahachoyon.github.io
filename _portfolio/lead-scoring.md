@@ -14,7 +14,7 @@ Engineered a reproducible, two-stage machine learning pipeline (`train.py`, `sco
 * **Code Repository:** [GitHub Project](https://github.com/tonmoysahachoyon/leads-score-sales-intelligence)
 ```
 
-*   **Job Market Trend Analysis Pipeline**[cite: 1]
+*   **Job Market Trend Analysis Pipeline**
     *   Create file: `_portfolio/job-market-pipeline.md`
     *   Content:
 ```markdown
@@ -32,6 +32,6 @@ Built an automated analytics and data warehousing pipeline to track hiring patte
 * **Data Transformation:** Defined modular SQL models, testing suites, and transformation workflows using **dbt**.
 * **Visualization:** Designed an interactive Power BI dashboard tracking market dynamics and compensation benchmarks across companies.
 * **Code Repository:** [GitHub Project](https://github.com/Tonmoy10/job-market-pipeline)
-```[cite: 1]
+```
 
 Commit each file, wait for the GitHub build to turn green, and check your live portfolio page.
