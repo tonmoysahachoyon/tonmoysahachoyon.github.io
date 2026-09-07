@@ -1,8 +1,7 @@
 ---
-layout: about
+layout: single
 title: "About Me"
 permalink: /
-subtitle: "Data Science Researcher | Seeking PhD Opportunities"
 author_profile: true
 ---
 
@@ -15,3 +14,8 @@ My work centers on establishing whether a model's output can be trusted against 
 * **Synthetic Data Generation & Validation:** Developed end-to-end pipelines utilizing CTGANs and large language models (LLMs) to model complex tabular distributions where real training data was absent.
 * **Rigorous Mathematical Testing:** Evaluated synthetic data quality and marginal distribution drift using Kolmogorov-Smirnov (KS) Distance, Total Variation Distance, Spearman correlation, and Cramér's V.
 * **Data Engineering & Analytics:** Experienced in building robust data pipelines using Python, SQL, Google BigQuery, and dbt.
+
+## Education
+
+* **MSc in Data Science (Commendation)** — University of Aberdeen
+* **BSc in Computer Science and Engineering (Summa Cum Laude, 3.99 CGPA)** — American International University-Bangladesh
