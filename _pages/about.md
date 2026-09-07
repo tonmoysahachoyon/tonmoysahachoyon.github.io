@@ -1,8 +1,10 @@
 ---
-layout: single
-title: "About Me"
 permalink: /
+title: "About Me"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 I am a Data Science graduate from the University of Aberdeen with a strong focus on generative AI, synthetic data generation, and the mathematical validation of machine learning models. 
