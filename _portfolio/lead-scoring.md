@@ -11,7 +11,7 @@ Engineered a reproducible, two-stage machine learning pipeline (`train.py`, `sco
 * **Predictive Performance:** Tuned a Random Forest classifier achieving **0.95 precision** and **0.88 recall**.
 * **Behavioral Segmentation:** Applied K-Means clustering to partition converted leads into distinct behavioral segments, isolating low-intent cohorts to preserve signal strength.
 * **Explainable AI:** Integrated SHAP (SHapley Additive exPlanations) values to translate model outputs into clear, feature-attributed rankings rather than opaque scores.
-* **Code Repository:** [GitHub Project](https://github.com/Tonmoy10/leads-score-sales-intelligence)
+* **Code Repository:** [GitHub Project](https://github.com/tonmoysahachoyon/leads-score-sales-intelligence)
 ```[cite: 1]
 
 *   **Job Market Trend Analysis Pipeline**[cite: 1]
