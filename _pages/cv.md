@@ -22,6 +22,11 @@ redirect_from:
   * *Supervisor:* Prof. M. Carmen Romano
 * **B.Sc. in Computer Science and Engineering (Summa Cum Laude, CGPA 3.99/4.00)**, American International University-Bangladesh *(Sep 2019 – May 2023)*
   * *Thesis:* Benchmarking CNN, SVM, and Ensemble Architectures for Medical Imaging Diagnostic Accuracy
+ 
+## Honors & Awards
+* **Academic Excellence Scholarship** — American International University-Bangladesh
+* **Summa Cum Laude** — American International University-Bangladesh
+* **Dean's List** — American International University-Bangladesh (Four Semesters)
 
 ## Key Research & Technical Projects
 * **Synthetic Data Generation & Model Validation** *(MSc Dissertation with XYNQ)*
