@@ -21,3 +21,9 @@ My work centers on establishing whether a model's output can be trusted against 
 
 * **MSc in Data Science (Commendation)** — University of Aberdeen
 * **BSc in Computer Science and Engineering (Summa Cum Laude, 3.99 CGPA)** — American International University-Bangladesh
+
+## Honors & Awards
+
+* **Academic Excellence Scholarship** — American International University-Bangladesh
+* **Summa Cum Laude** — American International University-Bangladesh
+* **Dean's List** — American International University-Bangladesh (Four Semesters)
