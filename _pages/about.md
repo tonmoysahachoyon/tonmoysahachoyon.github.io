@@ -7,23 +7,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a Data Science graduate from the University of Aberdeen with a strong focus on generative AI, synthetic data generation, and the mathematical validation of machine learning models. 
+> **Open to PhD Opportunities:** I am actively seeking a PhD position to apply advanced machine learning, synthetic data generation, and mathematical validation methods to complex, real-world problems.
 
-My work centers on establishing whether a model's output can be trusted against ground truth rather than assuming it. I am actively seeking a PhD position to apply advanced machine learning and data science methods to complex, real-world problems.
+I am a Data Science researcher specializing in generative AI and the mathematical validation of machine learning models. My work addresses a critical challenge in modern AI: establishing whether a model's output can be rigorously trusted against ground truth, rather than merely assuming its validity. 
 
 ## Research & Core Focus
 
-* **Synthetic Data Generation & Validation:** Developed end-to-end pipelines utilizing CTGANs and large language models (LLMs) to model complex tabular distributions where real training data was absent.
-* **Rigorous Mathematical Testing:** Evaluated synthetic data quality and marginal distribution drift using Kolmogorov-Smirnov (KS) Distance, Total Variation Distance, Spearman correlation, and Cramér's V.
-* **Data Engineering & Analytics:** Experienced in building robust data pipelines using Python, SQL, Google BigQuery, and dbt.
+* **Synthetic Data Generation:** Developing end-to-end pipelines utilizing Conditional Tabular GANs (CTGAN) and Large Language Models (LLMs) to model complex tabular distributions in the absence of real training data.
+* **Rigorous Statistical Validation:** Evaluating synthetic data fidelity and marginal distribution drift using Kolmogorov-Smirnov (KS) Distance, Total Variation Distance, Spearman correlation, and Cramér's V.
+* **Data Engineering & Analytics:** Architecting robust, scalable data pipelines using Python, SQL, Google BigQuery, and dbt.
 
-## Education
+## Education & Honors
 
 * **MSc in Data Science (Commendation)** — University of Aberdeen
 * **BSc in Computer Science and Engineering (Summa Cum Laude, 3.99 CGPA)** — American International University-Bangladesh
-
-## Honors & Awards
-
-* **Academic Excellence Scholarship** — American International University-Bangladesh
-* **Summa Cum Laude** — American International University-Bangladesh
-* **Dean's List** — American International University-Bangladesh (Four Semesters)
+* **Awards:** Academic Excellence Scholarship, Dean's List (Four Semesters)
