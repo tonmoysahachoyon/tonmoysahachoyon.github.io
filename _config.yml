@@ -3,7 +3,7 @@
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# `jekyll serve -l -H localhost`. If you change this file, please restart the
 # server process.
 
 # Basic Site Settings
@@ -12,9 +12,9 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Tonmoy Saha Choyon"
 title_separator          : " | "
 name                     : &name "Tonmoy Saha Choyon"
-description              : &description "Academic portfolio of Tonmoy Saha Choyon, Data Science Researcher seeking a PhD position."   
-url                      : "https://tonmoysahachoyon.github.io" 
-baseurl                  : "" 
+description              : &description "Academic portfolio of Tonmoy Saha Choyon: synthetic data, generative AI, and statistical model validation. Seeking a PhD position in machine learning."
+url                      : "https://tonmoysahachoyon.github.io"
+baseurl                  : ""
 repository               : "tonmoysahachoyon/tonmoysahachoyon.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -22,91 +22,91 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Tonmoy Saha Choyon"
-  pronouns         : ""  
-  bio              : "MSc Data Science Graduate specializing in generative AI, synthetic data generation, and model validation."
+  pronouns         : ""
+  bio              : "Data scientist working on synthetic data and how to validate generative models when real ground truth is scarce. Seeking a PhD in machine learning."
   location         : "Aberdeen, UK"
-  employer         : "University of Aberdeen"
-  uri              : 
-  email            : "choyontonmoysaha@gmail.com" 
+  employer         : "MSc Data Science, University of Aberdeen"
+  uri              :
+  email            : "choyontonmoysaha@gmail.com"
 
   # Academic websites
-  academia         : 
-  arxiv            : 
-  googlescholar    : 
-  inspire-hep      : 
-  impactstory      : 
-  orcid            : 
-  semantic         : 
-  ssrn             : 
-  pubmed           : 
-  researchgate     : 
-  scopus           : 
-  zotero           : 
+  academia         :
+  arxiv            :
+  googlescholar    :
+  inspire-hep      :
+  impactstory      :
+  orcid            :
+  semantic         :
+  ssrn             :
+  pubmed           :
+  researchgate     :
+  scopus           :
+  zotero           :
 
   # Repositories and software development
-  bitbucket        : 
-  codepen          : 
-  dribbble         : 
+  bitbucket        :
+  codepen          :
+  dribbble         :
   github           : "tonmoysahachoyon"
-  kaggle           : 
-  stackoverflow    : 
+  kaggle           :
+  stackoverflow    :
 
   # Social media
-  artstation       : 
-  bluesky          : 
-  facebook         : 
-  flickr           : 
-  foursquare       : 
-  goodreads        : 
-  google_plus      : 
-  keybase          : 
-  instagram        : 
-  lastfm           : 
+  artstation       :
+  bluesky          :
+  facebook         :
+  flickr           :
+  foursquare       :
+  goodreads        :
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
   linkedin         : "tonmoysaha12"
-  mastodon         : 
-  medium           : 
-  pinterest        : 
-  soundcloud       : 
-  steam            : 
-  telegram         : 
-  tumblr           : 
-  twitter          : 
-  vine             : 
-  weibo            : 
-  wikipedia        : 
-  xing             : 
-  youtube          : 
-  zhihu            : 
+  mastodon         :
+  medium           :
+  pinterest        :
+  soundcloud       :
+  steam            :
+  telegram         :
+  tumblr           :
+  twitter          :
+  vine             :
+  weibo            :
+  wikipedia        :
+  xing             :
+  youtube          :
+  zhihu            :
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'   
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  
-breadcrumbs              : false 
+teaser                   :
+breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
-read_more                : "disabled" 
-talkmap_link             : false      
+read_more                : "disabled"
+talkmap_link             : false
 comments:
-  provider               : 
+  provider               :
   disqus:
     shortname            :
   discourse:
-    server               : 
+    server               :
   facebook:
     appid                :
-    num_posts            : 
-    colorscheme          : 
+    num_posts            :
+    colorscheme          :
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" 
+  branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
@@ -119,10 +119,10 @@ staticman:
     date:
       type               : "date"
       options:
-        format           : "iso8601" 
+        format           : "iso8601"
 atom_feed:
-  hide                   : true     
-  path                   : 
+  hide                   : true
+  path                   :
 
 # SEO Related
 google_site_verification :
@@ -137,16 +137,18 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  
-og_description           :  
+og_image                 : "profile.png"
+og_description           : "Synthetic data, generative AI, and statistical model validation. MSc Data Science, University of Aberdeen. Seeking a PhD position."
 social:
-  type                   : 
-  name                   : 
-  links: 
+  type                   : Person
+  name                   : "Tonmoy Saha Choyon"
+  links:
+    - "https://github.com/tonmoysahachoyon"
+    - "https://www.linkedin.com/in/tonmoysaha12"
 
 # Analytics
 analytics:
-  provider               :  "false" 
+  provider               : "false"
   google:
     tracking_id          :
 
@@ -231,7 +233,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -249,7 +251,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -258,7 +260,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -267,7 +269,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
+      comments: false
   # _talks
   - scope:
       path: ""
@@ -280,11 +282,11 @@ defaults:
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed 
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Europe/London 
+timezone: Europe/London
 
 # Plugins
 plugins:
