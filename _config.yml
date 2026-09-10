@@ -35,7 +35,7 @@ author:
   googlescholar    :
   inspire-hep      :
   impactstory      :
-  orcid            :
+  orcid            : "https://orcid.org/0009-0000-5459-6872"
   semantic         :
   ssrn             :
   pubmed           :
@@ -145,6 +145,7 @@ social:
   links:
     - "https://github.com/tonmoysahachoyon"
     - "https://www.linkedin.com/in/tonmoysaha12"
+    - "https://orcid.org/0009-0000-5459-6872"
 
 # Analytics
 analytics:
