@@ -1,14 +1,69 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<style>
+.proj-intro { font-size: 0.9em; margin-bottom: 1em; }
+.proj-filters { margin: 0 0 1.2em; }
+.proj-filters button { background: #fff; border: 1px solid #52adc8; color: #2f7f96; border-radius: 16px; padding: 0.3em 1em; margin: 0 0.4em 0.5em 0; font-size: 0.8em; cursor: pointer; transition: background 0.2s, color 0.2s; }
+.proj-filters button:hover, .proj-filters button.active { background: #52adc8; color: #fff; }
+.proj-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.1em; }
+.proj-card { display: flex; flex-direction: column; border: 1px solid #e0e0e0; border-top: 4px solid #52adc8; border-radius: 8px; padding: 1em 1.1em; text-decoration: none !important; color: inherit !important; transition: box-shadow 0.2s, transform 0.2s; }
+.proj-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.10); transform: translateY(-3px); }
+.proj-card.featured { border-top-color: #2f7f96; background: #f7fbfc; }
+.proj-card h3 { margin: 0.2em 0 0.5em; font-size: 1.05em; line-height: 1.35; }
+.proj-card p { font-size: 0.82em; margin: 0 0 0.9em; flex-grow: 1; }
+.proj-label { display: inline-block; align-self: flex-start; background: #eef7fa; color: #2f7f96; border-radius: 12px; padding: 0.1em 0.7em; font-size: 0.7em; }
+.proj-card.featured .proj-label { background: #2f7f96; color: #fff; }
+.proj-more { font-size: 0.8em; font-weight: bold; color: #52adc8; }
+.proj-card.hidden { display: none; }
+</style>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
+<p class="proj-intro">My MSc dissertation is my main research work. The other projects show the machine learning and data engineering skills behind it. Click any card for full details.</p>
+
+<div class="proj-filters">
+  <button class="active" data-filter="all">All</button>
+  <button data-filter="research">Research</button>
+  <button data-filter="ml">Machine Learning</button>
+  <button data-filter="data">Data Engineering</button>
+</div>
+
+{% assign project_order = "/portfolio/synthetic-data-dissertation/|research ml|MSc Dissertation,/portfolio/lead-scoring/|ml|Machine Learning,/portfolio/rfm-segmentation/|ml|Machine Learning,/portfolio/job-market-pipeline/|data|Data Engineering" | split: "," %}
+
+<div class="proj-grid">
+{% for entry in project_order %}
+  {% assign parts = entry | split: "|" %}
+  {% assign post = site.portfolio | where: "url", parts[0] | first %}
+  {% if post %}
+  <a href="{{ base_path }}{{ post.url }}" class="proj-card{% if forloop.first %} featured{% endif %}" data-cat="{{ parts[1] }}">
+    <span class="proj-label">{{ parts[2] }}</span>
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.excerpt | markdownify | strip_html | strip }}</p>
+    <span class="proj-more">Read more &rarr;</span>
+  </a>
+  {% endif %}
 {% endfor %}
+</div>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var buttons = document.querySelectorAll(".proj-filters button");
+  var cards = document.querySelectorAll(".proj-card");
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      buttons.forEach(function (b) { b.classList.remove("active"); });
+      btn.classList.add("active");
+      var f = btn.getAttribute("data-filter");
+      cards.forEach(function (card) {
+        var cats = card.getAttribute("data-cat").split(" ");
+        card.classList.toggle("hidden", f !== "all" && cats.indexOf(f) === -1);
+      });
+    });
+  });
+});
+</script>
