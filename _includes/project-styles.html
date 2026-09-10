@@ -1,0 +1,14 @@
+<style>
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.8em; margin: 1em 0 1.5em; }
+.stat { border: 1px solid #e0e0e0; border-top: 3px solid #52adc8; border-radius: 6px; padding: 0.7em 0.5em; text-align: center; transition: box-shadow 0.2s, transform 0.2s; }
+.stat:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.08); transform: translateY(-2px); }
+.stat .num { display: block; font-size: 1.4em; font-weight: bold; color: #52adc8; line-height: 1.3; }
+.stat .label { display: block; font-size: 0.72em; color: #666; }
+.tags { margin: 0.4em 0 1.2em; }
+.tag { display: inline-block; background: #eef7fa; color: #2f7f96; border-radius: 12px; padding: 0.15em 0.75em; margin: 0 0.3em 0.4em 0; font-size: 0.75em; }
+.flow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4em; margin: 1em 0 1.5em; font-size: 0.85em; }
+.flow .step { border: 1px solid #52adc8; border-radius: 6px; padding: 0.4em 0.8em; background: #f7fbfc; }
+.flow .arrow { color: #52adc8; font-weight: bold; }
+.project-details { border: 1px solid #e0e0e0; border-radius: 6px; padding: 0.6em 1em; margin: 1em 0; font-size: 0.9em; }
+.project-details summary { cursor: pointer; font-weight: bold; }
+</style>
